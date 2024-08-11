@@ -3,9 +3,9 @@ import React from 'react'
 const NewPost = ({ handleSubmit, postTitle, setPostTitle, postBody, setPostBody }) => {
     return (
         <main className='NewPost'>
-            <h1>New Post</h1>
+            <h2>New Post</h2>
             <form className='newPostForm' onSubmit={handleSubmit}>
-                <lable htmlFor='postTitle'>Title</lable>
+                <label htmlFor='postTitle'>Title</label>
                 <input
                     id='postTitle'
                     type='text'
