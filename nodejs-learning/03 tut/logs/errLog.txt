@@ -1,1 +1,2 @@
 2024-08-19	14:08:56	07484148-1706-4216-9756-74146a16914b	TypeError: fsPromises.reaFile is not a function
+2024-08-20	17:43:30	3ba2cd6d-768b-4e08-9574-8a0912c7a72b	Error: Not allowed by CORS

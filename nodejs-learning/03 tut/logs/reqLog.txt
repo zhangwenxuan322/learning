@@ -1,10 +1,31 @@
-2024-08-19	14:07:59	9d10b097-5b6d-42f5-9e18-4eea586e7dd3	/img	GET
-2024-08-19	14:07:59	33db4b61-2cd1-472d-b8d6-5296db16615c	/css/style.css	GET
-2024-08-19	14:08:29	bcd1444f-74ea-4de3-98e6-2ab5b817be5b	/img/img1.jpg	GET
-2024-08-19	14:08:56	abe6d238-9c74-47bd-b306-373a88865f3e	/img/img1.jpg	GET
-2024-08-19	14:09:06	1e7f6f77-f249-4b94-a71e-be462fe58148	/img/img1.jpg	GET
-2024-08-19	14:09:53	1c2002a0-2652-4214-8a54-b97b9245b35e	/new-page	GET
-2024-08-19	14:09:53	eba444a7-a3e2-48e0-a328-1a7c30d6f6e4	/css/style.css	GET
-2024-08-19	14:09:53	54a71c3a-30eb-4044-8bc8-79ef3a9e884e	/img/img1.jpg	GET
-2024-08-20	15:20:13	f45b6e61-47c0-4665-8542-c57890029b6d	/	GET
-2024-08-20	15:20:13	329afc0c-d3ed-4947-bdd1-12782a48f53c	/css/style.css	GET
+2024-08-20	17:18:45	1d58f067-9a17-49ca-ad05-cf4551f50903	GET	undefined	/new-page
+2024-08-20	17:18:45	d9debc87-7c82-4178-8201-3706e890bd8b	GET	undefined	/css/style.css
+2024-08-20	17:18:45	c8da7942-503a-4869-af99-7465d948c2ab	GET	undefined	/img/img1.jpg
+2024-08-20	17:20:30	7e38750a-44c8-421b-9392-94bc34f78594	GET	undefined	/new-page
+2024-08-20	17:20:30	d63ff5dd-9438-4a9c-9cbf-c5fbb2e68102	GET	undefined	/css/style.css
+2024-08-20	17:20:30	58664201-96b7-4b02-8002-219a3f79248d	GET	undefined	/img/img1.jpg
+2024-08-20	17:22:16	c404e800-b526-4ff4-a1a1-69af19178729	GET	https://www.google.com	/
+2024-08-20	17:31:06	72989268-1bb4-49ef-a4ae-5ab8a964f9f0	GET	https://www.google.com	/
+2024-08-20	17:32:58	882d3ec8-512a-49db-92da-2284e71f0e6a	GET	undefined	/new-page
+2024-08-20	17:32:58	f767bf11-fe91-4a49-a431-85fc20175d94	GET	undefined	/img/img1.jpg
+2024-08-20	17:32:58	46ed3a64-fe65-4dd8-a9cb-f92a91c175df	GET	undefined	/css/style.css
+2024-08-20	17:35:23	f9de822a-099a-42e8-9207-209bb91e3a93	GET	undefined	/new-page
+2024-08-20	17:35:23	ef30ef72-9998-4a74-9670-209ddf65cc26	GET	undefined	/css/style.css
+2024-08-20	17:35:23	a5b4315f-c5c1-43d7-80ce-15c1b2ce9ad2	GET	undefined	/img/img1.jpg
+2024-08-20	17:35:34	3ad6083c-5b7e-47d7-9039-7a5c02b2ff9f	GET	https://www.google.com	/
+2024-08-20	17:36:31	d0b8c34c-c8b8-4c32-922b-c3bc08a70fcf	GET	https://www.google.com	/
+2024-08-20	17:36:45	13988c3d-518d-4c8f-956a-f9234285139c	GET	https://www.google.com	/
+2024-08-20	17:38:38	3efe0e87-6ae4-49fb-811f-776fa9dcd92a	GET	undefined	/new-page
+2024-08-20	17:38:38	0c6ec1ac-ef41-40ff-a259-dd54e432a485	GET	undefined	/img/img1.jpg
+2024-08-20	17:38:38	59000508-d6fa-4537-b522-77fcf1b9bcee	GET	undefined	/css/style.css
+2024-08-20	17:43:30	0ffa1327-4320-4842-a052-e3d7a201c649	GET	undefined	/new-page
+2024-08-20	17:43:54	a3ef4c00-dcac-4510-ad3e-fcaa8cc027ac	GET	undefined	/new-page
+2024-08-20	17:43:54	4cad1781-173a-49ae-8729-0e2f6142f5cd	GET	undefined	/css/style.css
+2024-08-20	17:43:54	f14cd5e9-c523-45b5-a3f8-e78fb81f65a6	GET	undefined	/img/img1.jpg
+2024-08-20	17:45:45	ff2a37a5-9a3b-4663-9b68-d7c0ca36a7b2	GET	undefined	/new-
+2024-08-20	17:45:45	4d02f086-bd5f-40b2-93af-8524c855dd4e	GET	undefined	/css/style.css
+2024-08-20	17:45:52	b17dbd53-a48c-4030-bbd7-ac9443be44c5	GET	undefined	/new-page
+2024-08-20	17:45:52	14ff82c6-d094-4c9d-91c8-8a0d6e70720f	GET	undefined	/css/style.css
+2024-08-20	17:45:52	28cd4738-2394-4d28-9cc5-cae1e5e51a39	GET	undefined	/img/img1.jpg
+2024-08-20	17:47:55	7075919b-2099-4ba1-8ed2-048cbe3c8667	GET	undefined	/new-
+2024-08-20	17:47:55	62cc4595-855e-4b48-b6ec-502422f6492b	GET	undefined	/css/style.css
