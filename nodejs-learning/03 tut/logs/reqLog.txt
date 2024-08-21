@@ -83,3 +83,7 @@
 2024-08-21	15:04:11	aef05701-66c8-4ee2-ada6-e3b1ed7ffc1b	DELETE	undefined	/employees
 2024-08-21	15:04:14	3c0b5569-86de-436d-8f31-e29ebfbc3acc	DELETE	undefined	/employees
 2024-08-21	15:04:18	9e9ee90b-ccbd-4888-93ef-a4256938a8c7	POST	undefined	/employees
+2024-08-21	17:57:58	fb0a1c1b-e0a5-4893-ae60-2a0dea1f50be	POST	undefined	/register
+2024-08-21	17:59:22	fa2916ed-47f6-4f98-a96e-658a2092c738	POST	undefined	/register
+2024-08-21	18:07:34	6e726915-1301-4dce-81f0-7741e18493e9	POST	undefined	/auth
+2024-08-21	18:08:09	35ae1b7b-73a8-4a36-baa4-7283b195b87b	POST	undefined	/register
