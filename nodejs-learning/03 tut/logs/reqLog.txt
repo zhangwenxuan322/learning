@@ -196,3 +196,5 @@
 2024-08-22	17:49:23	9aa8db98-af68-4ffd-9215-641b47198e54	DELETE	undefined	/employees
 2024-08-22	17:49:55	21435832-561e-448a-829d-f4dbb27261a6	POST	undefined	/auth
 2024-08-22	17:50:09	ac1e3470-50cb-4f49-a4e8-5f406774480c	DELETE	undefined	/employees
+2024-08-22	19:50:29	7ad56dcf-3a9c-47a5-94c3-55ca3aab8c36	POST	undefined	/register
+2024-08-22	19:52:57	eda53ccd-2500-4859-ae0f-48d1eb8fc2bd	POST	undefined	/register
