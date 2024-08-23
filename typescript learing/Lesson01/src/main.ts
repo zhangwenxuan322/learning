@@ -1,9 +1,18 @@
-let username = 'Oscar'
-console.log(username)
+let myName = 'Dave'
+let meaningOfLife: number
+let isLoading: boolean
+let album: string | number
 
-let a: number = 12
-let b: number = 6
-let c: number = 2
+myName = 'John'
+meaningOfLife = 42
+isLoading = true
+album = 1984
 
-console.log(a / c)
-console.log(c * b)
+const sum = (a: number, b: number) => a + b
+
+console.log(sum(1, 2))
+
+let postId: string | number
+let isActive: number | boolean
+
+let re: RegExp = /\w+/g
