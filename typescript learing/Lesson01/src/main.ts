@@ -1,63 +1,77 @@
-let stringArr = ['one', 'hey', 'Oscar']
-let guitars = ['Strat', 'Les Paul', 5150]
-let mixedData = ['EVH', 1984, true]
+// type aliases
+type stringOrNumber = string | number;
 
-stringArr.push('new string')
-guitars.unshift('Jim')
+type stringOrNumberArray = stringOrNumber[];
 
-let test = []
-let bands: string[] = []
-bands.push('Van Halen')
-
-// Tuple
-let myTuple: [string, number, boolean] = ['Van Halen', 1984, true]
-let mixed = ['John', 1, true]
-
-
-// Object
-let myObj: object
-myObj = []
-console.log(typeof (myObj))
-myObj = {}
-
-const exampleObj = {
-    prop1: 'Oscar',
-    prop2: true,
-}
-
-exampleObj.prop2 = false
-console.log(exampleObj)
-
-interface Guitarist {
+type Guitarist = {
     name?: string,
     active: boolean,
-    alumns: (string | number)[]
+    alumns: stringOrNumberArray
 }
 
-let evh: Guitarist = {
-    name: 'Eddie Van Halen',
-    active: false,
-    alumns: ['Van Halen', 1984]
+type UserId = stringOrNumber
+
+// literal types
+let myName: 'Oscar' = 'Oscar'
+
+let userName: 'Oscar' | 'Zoe' | 'Amy'
+userName = 'Zoe'
+
+// functions
+const add = (a: number, b: number): number => {
+    return a + b
 }
 
-let jp: Guitarist = {
-    name: 'Jummy',
-    active: true,
-    alumns: ['Led Zeppelin', 4]
+const logMsg = (message: any) => {
+    console.log(message)
 }
 
-const greetGuitarist = (guitarist: Guitarist) => {
-    if (guitarist.name) {
-        return `Hello ${guitarist.name.toLocaleLowerCase()}`
+logMsg('Hello World')
+logMsg(add(1, 2))
+
+let subtract = function (c: number, d: number): number {
+    return c - d
+}
+
+type mathFunction = (a: number, b: number) => number
+
+let multiply: mathFunction = (a, b) => {
+    return a * b
+}
+
+logMsg(multiply(2, 3))
+
+// optional parameters
+const addAll = (a: number, b: number, c?: number): number => {
+    if (c) {
+        return a + b + c
     }
-    return 'Hello'
+    return a + b
 }
 
-console.log(greetGuitarist(jp))
+logMsg(addAll(1, 2))
 
-// Enum
-enum Grade {
-    U = 1, D, C, B, A
+// Rest Parameters
+const total = (a: number, ...nums: number[]): number => {
+    return a + nums.reduce((prev, curr) => prev + curr)
 }
 
-console.log(Grade.B)
+logMsg(total(1, 2, 3, 4, 5))
+
+const createError = (errMsg: string): never => {
+    throw new Error(errMsg)
+}
+
+const infinite = () => {
+    let i: number = 1
+    while (true) {
+        i++
+        if (i > 100) break
+    }
+}
+
+const numberOrString = (value: number | string): string => {
+    if (typeof value === 'number') return 'number'
+    if (typeof value === 'string') return 'string'
+    return createError('Value must be a number or string')
+}

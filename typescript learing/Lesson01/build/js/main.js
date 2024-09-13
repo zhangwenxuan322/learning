@@ -1,50 +1,52 @@
 "use strict";
-let stringArr = ['one', 'hey', 'Oscar'];
-let guitars = ['Strat', 'Les Paul', 5150];
-let mixedData = ['EVH', 1984, true];
-stringArr.push('new string');
-guitars.unshift('Jim');
-let test = [];
-let bands = [];
-bands.push('Van Halen');
-// Tuple
-let myTuple = ['Van Halen', 1984, true];
-let mixed = ['John', 1, true];
-// Object
-let myObj;
-myObj = [];
-console.log(typeof (myObj));
-myObj = {};
-const exampleObj = {
-    prop1: 'Oscar',
-    prop2: true,
+// literal types
+let myName = 'Oscar';
+let userName;
+userName = 'Zoe';
+// functions
+const add = (a, b) => {
+    return a + b;
 };
-exampleObj.prop2 = false;
-console.log(exampleObj);
-let evh = {
-    name: 'Eddie Van Halen',
-    active: false,
-    alumns: ['Van Halen', 1984]
+const logMsg = (message) => {
+    console.log(message);
 };
-let jp = {
-    name: 'Jummy',
-    active: true,
-    alumns: ['Led Zeppelin', 4]
+logMsg('Hello World');
+logMsg(add(1, 2));
+let subtract = function (c, d) {
+    return c - d;
 };
-const greetGuitarist = (guitarist) => {
-    if (guitarist.name) {
-        return `Hello ${guitarist.name.toLocaleLowerCase()}`;
+let multiply = (a, b) => {
+    return a * b;
+};
+logMsg(multiply(2, 3));
+// optional parameters
+const addAll = (a, b, c) => {
+    if (c) {
+        return a + b + c;
     }
-    return 'Hello';
+    return a + b;
 };
-console.log(greetGuitarist(jp));
-// Enum
-var Grade;
-(function (Grade) {
-    Grade[Grade["U"] = 1] = "U";
-    Grade[Grade["D"] = 2] = "D";
-    Grade[Grade["C"] = 3] = "C";
-    Grade[Grade["B"] = 4] = "B";
-    Grade[Grade["A"] = 5] = "A";
-})(Grade || (Grade = {}));
-console.log(Grade.B);
+logMsg(addAll(1, 2));
+// Rest Parameters
+const total = (a, ...nums) => {
+    return a + nums.reduce((prev, curr) => prev + curr);
+};
+logMsg(total(1, 2, 3, 4, 5));
+const createError = (errMsg) => {
+    throw new Error(errMsg);
+};
+const infinite = () => {
+    let i = 1;
+    while (true) {
+        i++;
+        if (i > 100)
+            break;
+    }
+};
+const numberOrString = (value) => {
+    if (typeof value === 'number')
+        return 'number';
+    if (typeof value === 'string')
+        return 'string';
+    return createError('Value must be a number or string');
+};
